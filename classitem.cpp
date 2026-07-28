@@ -35,3 +35,9 @@ int main()
 
     return 0;
 }
+
+int getdata()
+{
+    cout<<"not part of class";
+    return 0; 
+}
