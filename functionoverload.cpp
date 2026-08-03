@@ -7,8 +7,8 @@ float area (float);
 int main()
 {
     cout<<"Calling the area() function for compiting the area of the square (side=5) - " <<area (5)<<"\n";
-    cout<<"Calling the area() function for compiting the area of the rectangle (len=5, bre=10) - " <<area (5, 10)<<"\n";
-    cout<<"Calling the area() function for compiting the area of the circle (radius=5.5) - " <<area (5.50);
+    cout<<"Calling the area() function for compiting the area of the rectangle (len=5, bre=10) - " <<area (5,10)<<"\n";
+    cout<<"Calling the area() function for compiting the area of the circle (radius=5.5) - " <<area (5.5f);
     return 0;
 }
 
