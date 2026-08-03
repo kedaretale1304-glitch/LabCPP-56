@@ -1,4 +1,4 @@
-#include <iostream>
+p#include <iostream>
 using namespace std;
 
 int main() 
@@ -9,7 +9,6 @@ int main()
 
     cout << "Enter the size of the integer array: ";
      cin>>size;
-    cin>>arr;
      cout<<"Creating an array of the size"<<size<<". .";
     arr=new int[size];
     cout << "\nDynamic allocation of memory for array arr is successful. ";
