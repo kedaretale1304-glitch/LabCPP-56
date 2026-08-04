@@ -4,9 +4,9 @@ using namespace std;
 
 class Student{
     private:
-    string name;
-    int rollno;
-    float marks;
+     string name;
+     int rollno;
+     float marks;
 
     public:
     void inputDetails(){
