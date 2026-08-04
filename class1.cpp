@@ -21,7 +21,7 @@ class Student{
     void displayDetails() const{
         cout<<"\n----Student Details----\n";
         cout<<"Name:"<<name<<endl;
-        cout<<"Roll No.:"<<name<<endl;
+        cout<<"Roll No.:"<<rollno<<endl;
         cout<<"Marks:"<<marks<<endl;
     }
 };
