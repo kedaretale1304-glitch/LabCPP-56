@@ -4,6 +4,7 @@ using namespace std;
 
 class Employee {
     private:
+
         int employeeId;
         string branch;
         float basicSalary;
@@ -26,6 +27,7 @@ class Employee {
         }
 
         void displaydata() const {
+
             cout << "\n----- Employee Details -----\n";
             cout << "Employee ID: " << employeeId << endl;
             cout << "Branch: " << branch << endl;
@@ -34,6 +36,7 @@ class Employee {
         }
 
         void salaryCalculate() const {
+            
             float hra, da, totalSalary;
 
             hra = basicSalary * 0.20;
