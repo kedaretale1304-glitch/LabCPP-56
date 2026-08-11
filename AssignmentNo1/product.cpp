@@ -12,7 +12,7 @@ class Product {
 
     public:
 
-        void getdata() {
+        void getdata(int a, int b) {
             cout << "Enter Product Name: ";
             getline(cin >> ws, productName);
 
