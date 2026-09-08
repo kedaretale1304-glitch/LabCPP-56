@@ -38,6 +38,9 @@ class Employee {
             cout << "DA: " << da << endl;
             cout << "Total Salary: " << totalSalary << endl;
         }
+        ~Employee(){
+            cout<<"The Object is destroyed"<<endl;
+        }
 };
 
 int main() {
