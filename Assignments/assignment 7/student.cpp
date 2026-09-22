@@ -56,7 +56,7 @@ class studentexam: public student
         cout<<"\n marks of subject 6;"<<sub6;
     }
 };
-class studentresult: public studentexam
+class studentresult: private studentexam
 
 {
     public:
@@ -69,7 +69,8 @@ class studentresult: public studentexam
     }
 };
 int main()
-{studentresult str;
+{
+    studentresult str;
     int cnt, i;
     cout<<"\n enter no.of students you want?:";
     cin>>cnt;
