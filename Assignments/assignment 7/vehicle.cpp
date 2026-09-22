@@ -30,4 +30,4 @@
          Car obj1; 
          Bus obj2; 
          return 0; 
-        } 
+        0          } 
