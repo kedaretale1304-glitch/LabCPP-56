@@ -13,7 +13,7 @@ int main() {
 
     // By default ios::out mode is used, which deletes old content.
     // To append content, use: fout.open("sample.txt", ios::app);
-    fout.open("sample.txt");
+    fout.open("sample.txt",ios::app);
 
     // Execute a loop if file successfully opened
     if (!fout) {
