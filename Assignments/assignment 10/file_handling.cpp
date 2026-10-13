@@ -13,7 +13,7 @@ int main() {
 
     // By default ios::out mode is used, which deletes old content.
     // To append content, use: fout.open("sample.txt", ios::app);
-    fout.open("sample.txt",ios::app);
+    fout.open("file_handling.cpp",ios::app);
 
     // Execute a loop if file successfully opened
     if (!fout) {
@@ -38,7 +38,7 @@ int main() {
 
     // Creation of ifstream class object to read the file
     ifstream fin;
-    fin.open("sample.txt");
+    fin.open("file_handling.cpp");
 
     if (!fin) {
         cout << "Error opening file for reading!" << endl;
@@ -56,4 +56,5 @@ int main() {
     fin.close();
 
     return 0;
-}
+}Dyp 
+OOc
