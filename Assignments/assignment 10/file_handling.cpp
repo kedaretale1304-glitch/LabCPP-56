@@ -56,5 +56,4 @@ int main() {
     fin.close();
 
     return 0;
-}Dyp 
-OOc
+}
