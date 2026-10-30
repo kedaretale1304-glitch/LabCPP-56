@@ -1,19 +1,39 @@
-#include<iostream>
-using namespace std ;
+#include <iostream>
+#include <exception>
+using namespace std;
 
-int main(){
-    int n ;
-     cout << "Enter n : ";
-     cin >> n ;
+class MyException : public exception
+{
+public:
+    const char* what() const noexcept override
+    {
+        return "Attempted to divide by zero!\n";
+    }
+};
 
-     if (n > 0)
-     cout << n << "is Positive";
+int main()
+{
+    try
+    {
+        int x, y;
 
-     else if (n < 0)
-     cout << n << "is Negative";
+        cout << "Enter the two numbers: ";
+        cin >> x >> y;
 
-     else 
-     cout << "zero";
+        if (y == 0)
+        {
+            MyException z;
+            throw z;
+        }
+        else
+        {
+            cout << "x / y = " << x / y << endl;
+        }
+    }
+    catch (exception& e)
+    {
+        cout << e.what();
+    }
 
-     return 0 ;
+    return 0;
 }
